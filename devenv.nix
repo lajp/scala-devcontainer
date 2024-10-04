@@ -16,6 +16,7 @@
       customizations.vscode.extensions = [
         "scalameta.metals"
         "scala-lang.scala"
+        "mkhl.direnv"
       ];
     };
   };
