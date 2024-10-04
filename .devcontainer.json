@@ -8,6 +8,9 @@
     }
   },
   "image": "ghcr.io/cachix/devenv:latest",
+  "options": {
+    "updateContentCommand": "devenv build"
+  },
   "overrideCommand": false,
   "updateContentCommand": "devenv test"
 }
